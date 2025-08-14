@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+typer
+python-dotenv
+pydantic
+langchain
+langchain-groq
+langchain-community
+langgraph
+duckduckgo-search
+langgraph-checkpoint-sqlite
+aiohttp
+bs4
+langsmith
+langchain-core
