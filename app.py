@@ -111,7 +111,7 @@ class ResearchState(BaseModel):
     low_confidence: Annotated[bool, operator.add] = False
 # ====== LLM Setup ======
 try:
-    llm_smart = ChatGroq(model="gemma2-9b-it", temperature=0.1, max_tokens=2048)
+    llm_smart = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.1, max_tokens=2048)
     llm_fast = ChatGroq(model="gemma2-9b-it", temperature=0.0, max_tokens=1024)
 except Exception as e:
     logger.error(f"Failed to initialize LLMs: {e}")
