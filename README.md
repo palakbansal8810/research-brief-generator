@@ -186,3 +186,8 @@ pytest tests/ --verbose
 * Support **multi-language briefs**.
 * Implement **real-time streaming output** for large briefs.
 
+**Langsmith Tracing**
+
+<img width="1889" height="977" alt="image" src="https://github.com/user-attachments/assets/0e72a89e-4446-4cb6-a8ad-88431ecf92bb" />
+<img width="1869" height="984" alt="image" src="https://github.com/user-attachments/assets/9bc6a3a9-4363-44cb-8c4d-e9ff2d20c0cf" />
+
