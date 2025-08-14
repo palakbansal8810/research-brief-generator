@@ -95,7 +95,7 @@ source venv/bin/activate  # (Windows: venv\Scripts\activate)
 pip install -r requirements.txt
 
 # Run the server
-uvicorn main:app --reload
+uvicorn app:app --reload
 ```
 
 **Environment Variables (`.env`):**
@@ -108,7 +108,13 @@ LANGSMITH_API_KEY=" "
 LANGSMITH_PROJECT="research-brief-generator"
 
 ```
+**For Testing**
 
+```
+set PYTHONPATH=%PYTHONPATH%;%CD%
+pytest tests/ --verbose  
+
+```
 ---
 
 ## **6. Example Requests and Outputs**
