@@ -120,7 +120,7 @@ LANGSMITH_PROJECT="research-brief-generator"
 ```json
 {
     "topic": "Impact of AI on Education",
-    "depth": 3,
+    "depth": 1,
     "follow_up": false,
     "user_id": "user123"
 }
